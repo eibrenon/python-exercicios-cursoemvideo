@@ -1,3 +1,14 @@
+"""
+    Esse exercício é referente a aula 07 do curso de Python do Curso em vídeo:
+
+    Desafio 008: Escreva um programa que leia um valor em metros e o exiba
+    convertido em centímetros e milímetros.
+
+    Esse programa pede para o usuário digitar um valor em metros e mostra esse valor
+    convertido em todas as medidas.
+
+    By: José Brenon - 15/04/2023
+"""
 n = float(input('Digite uma distância em metros: '))
 dm = n * 10
 cm = n * 100

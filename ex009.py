@@ -1,3 +1,13 @@
+"""
+    Esse exercício é referente a aula 07 do curso de Python do Curso em vídeo:
+
+    Desafio 009: Faça um programa que leia um número Inteiro qualquer
+    e mostre na tela a sua tabuada.
+
+    Esse programa pede para o usuário digitar um número inteiro e mostra a sua tabuada.
+
+    By: José Brenon - 15/04/2023
+"""
 n = int(input('Digite um número para ver a sua tabuada: '))
 print('='*10)
 print('{} x {:2} = {:2}'.format(n, 1, n*1))
